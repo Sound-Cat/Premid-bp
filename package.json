@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sound-Cat/premid-bp/issues"
   },
-  "homepage": "https://github.com/Sound-Cat/premid-bp#readme"
+  "homepage": "https://github.com/Sound-Cat/premid-bp#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
