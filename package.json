@@ -1,0 +1,20 @@
+{
+  "name": "premid-bp",
+  "version": "1.0.0",
+  "description": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sound-Cat/premid-bp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sound-Cat/premid-bp/issues"
+  },
+  "homepage": "https://github.com/Sound-Cat/premid-bp#readme"
+}
