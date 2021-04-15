@@ -1,8 +1,25 @@
 var inquirer = require('inquirer');
 inquirer
-    .prompt([
-        /* Pass your questions in here */
-    ])
+    .prompt([{
+        type: 'checkbox',
+        message: "Which files do you want?",
+        name: "files",
+        choices: [
+            new inquirer.Separator(' = Files = '),
+            {
+                name: "metadata.json",
+            },
+            {
+                name: "presence.ts",
+            },
+            {
+                name: "tsconfig.json",
+            },
+            {
+                name: "iframe.ts",
+            }
+        ]
+    }])
     .then(answers => {
         // Use user feedback for... whatever!!
     })
