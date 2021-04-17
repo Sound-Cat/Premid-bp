@@ -2,28 +2,10 @@ const inquirer = require('inquirer');
 
 inquirer
     .prompt([{
-        type: 'checkbox',
-        message: "Which files do you want?",
+        type: 'Confirm',
+        message: "Do you want to include the iframe.ts file?",
         name: "files",
-        choices: [
-            new inquirer.Separator(' = Files = '),
-            {
-                name: "metadata.json",
-                checked: true,
-            },
-            {
-                name: "presence.ts",
-                checked: true
-            },
-            {
-                name: "tsconfig.json",
-                checked: true
-            },
-            {
-                name: "iframe.ts",
-                checked: true
-            }
-        ]
+        default: false,
     }])
     .then(answers => {
       console.log(answers);
