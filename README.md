@@ -1,5 +1,6 @@
 # Welcome to premid-bp 👋
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+![Status](https://img.shields.io/badge/Status-Online-success)
 
 > Boilerplate generator for Premid in the CLI
 
